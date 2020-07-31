@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Book App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<header>
+		<h1>Books</h1>
+	</header>
+	<main>
+        <div class="container mt-4">
+            <table class="table table-striped-mt-5">
+                <thead>
+                    <tr class="table-titles">
+                        <th>BookId</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                    </tr>
+                </thead>
+                <tbody id="book-list">
+                </tbody>
+            </table>
+        </div>
+        <div id="myBooks" class="container"></div>
+		<div class="pagenumbers" id="pagination"></div>
+	</main>
+	<script src="app.js"></script>
+</body>
+
+
+</html>
